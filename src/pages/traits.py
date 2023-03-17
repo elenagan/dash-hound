@@ -8,7 +8,7 @@ description = pd.read_csv("../data/trait_description.csv").rename(columns={"Trai
 
 layout = html.Div(children=[
     html.Br(),
-    html.H1(children='What do the traits mean?'),
+    html.H1(children='What do the traits mean?', style = {"text-align":"center"}),
 
     html.Div(children=dash_table.DataTable(description.to_dict('records'), 
                                            style_cell={'textAlign': 'left'}, 

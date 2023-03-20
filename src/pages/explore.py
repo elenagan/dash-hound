@@ -32,7 +32,7 @@ breeds.remove("Plott Hounds")
 
 layout = html.Div(children=[
     html.Br(),
-    html.H1(children='Explore the dog breeds', style = {"text-align":"center"}),
+    html.H1(children='Explore the Dog Breeds', style = {"text-align":"center"}),
     html.Br(),
     dbc.Row(dbc.Col(dcc.Dropdown(breeds, value = "Dachshunds", placeholder = "Select a breed", id='breed'), width=4)),
     dbc.Row([dbc.Col(html.Div(dcc.Graph(id="plot"))),

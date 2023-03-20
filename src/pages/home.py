@@ -17,8 +17,8 @@ def top_dogs(choices, order):
 
 layout = html.Div(children=[
     html.Br(),
-    html.H1(children='Which Dog is right for you?', style = {"text-align":"center"}),
-
+    html.H1(children='Which Dog Breed is Right for You?', style = {"text-align":"center"}),
+    html.Br(),
     html.Div(dbc.Row(
         [dbc.Col([html.H5("Please select the three most important traits in your perfect dog:"),
                   dcc.Dropdown(trait_choices, placeholder = "First Priority", id='first', className = "form-select"),
@@ -28,7 +28,11 @@ layout = html.Div(children=[
                   dcc.Dropdown(trait_choices, placeholder = "Third Priority", id='third', className = "form-select"),
                   dcc.RadioItems({"True": "Low Level ", "False" : "High Level "}, value = "False", inline = True, id = "level-3")]), 
                     
-         dbc.Col([dash_table.DataTable(id="table")])]
+         dbc.Col([dash_table.DataTable(id="table",
+                                       style_cell={'textAlign': 'left'}, 
+                                       style_data={'whiteSpace': 'normal','height': 'auto',"padding":"5px"}, 
+                                       style_table={"padding":"10px"},
+                                       style_as_list_view=True)])]
     ))
 
 ])

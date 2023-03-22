@@ -42,7 +42,7 @@ Interesting in helping out? Read the [`CONTRIBUTING.md`](CONTRIBUTING.md) for mo
 
 `dash-hound` was created by Elena Ganacheva
 
-The [Tidy Tuesday Dog Breeds Dataset](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-02-01) which comes from the [American Kennel Club (AKC)](https://www.akc.org/). This dataset is licensed under the [Creative Commons Zero v1.0 Universal License](https://github.com/rfordatascience/tidytuesday/blob/master/LICENSE).
+The [Tidy Tuesday Dog Breeds Dataset](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-02-01) which comes from the [American Kennel Club (AKC)](https://www.akc.org/) is licensed under the [Creative Commons Zero v1.0 Universal License](https://github.com/rfordatascience/tidytuesday/blob/master/LICENSE).
 
 Unless otherwise specified, the materials in this repository are covered under this copyright statement:
 
